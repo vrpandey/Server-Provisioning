@@ -165,4 +165,13 @@ Lot of manual work and time consuming. Also scalability is an issue.
 4. Recovery issues in case of accidents.
 
 5. Bad configuration management system can expose this private data and can cause threat to the system.
+
+<h3> References </h3>
+
+1. [ServersWorkshop](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)
+2. [AWS Documentation](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/ec2-example-creating-an-instance.html)
+3. [DigitalOcean Documentation](https://developers.digitalocean.com/documentation/v2/)
+4. [StackOveflow](https://stackoverflow.com/questions/37137513/ansible-install-node-js-version-6)
+5. Wikipedia
+
 </h5>
