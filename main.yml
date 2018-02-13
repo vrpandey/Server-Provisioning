@@ -1,0 +1,17 @@
+
+---
+  
+
+    - 
+      name: Create Instances(3 Roles)
+      hosts: localhost
+      vars:
+        githubuser: "{{ lookup('env','githubuser') }}"
+        githubpwd: "{{ lookup('env','githubpwd') }}"   
+      roles:
+        - InstallDependencies
+        - InstallModules  
+        - CreateInstances
+   
+
+

@@ -1,0 +1,10 @@
+    #AWS module command
+    - name: AWS module command
+      npm: 
+        path: /files/hw1Repo/AWS 
+     
+
+    #Droplet module command
+    - name: Droplet module command
+      npm: 
+        path: /files/hw1Repo/Droplet 

@@ -1,0 +1,12 @@
+    #AWS run command
+    - name: Run AWS command
+      command: node CreateInstance.js
+      args:
+        chdir: /files/hw1Repo/AWS 
+  
+      
+    #Droplet run command
+    - name: Run Droplet command
+      command: node CreateDroplet.js
+      args:
+        chdir: /files/hw1Repo/Droplet 
